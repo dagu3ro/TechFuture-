@@ -1,7 +1,12 @@
-# TechFuture
+# TechFuture Academia - Sistema de Gestión
 
-## Sistema de gestion para la academia de Ciencias y Robótica
+## Descripción
+Sistema de gestión para la Academia de Ciencias y Robótica "TechFuture"
 
+## Módulos
+- Gestión de Usuarios
+- Catálogos Institucionales  
+- Registro de Participación
 
-
-
+## Instrucciones de Uso
+[Pendiente]
