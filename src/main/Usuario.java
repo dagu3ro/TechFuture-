@@ -9,7 +9,9 @@ package main;
  * @author aguer
  */
 public class Usuario {
-    private String nombre, nickname, contrasena;
+    private String nombre;
+    private String nickname;
+    private String contrasena;
     private boolean activo;
 
     public Usuario(){
@@ -20,22 +22,29 @@ public class Usuario {
     }
 
     public String getNombre(){ 
-        return nombre;}
+        return nombre;
+    }
     public void setNombre(String nombre){
-        this.nombre = nombre;}
+        this.nombre = nombre;
+    }
     
     public String getNickname(){
-        return nickname;}
+        return nickname;
+    }
     public void setNickname(String nickname){
         this.nickname=nickname;}
     
     public String getContrasena(){
-        return contrasena;}
+        return contrasena;
+    }
     public void setContrasena(String contrasena){
-        this.contrasena=contrasena;}
+        this.contrasena=contrasena;
+    }
     
     public boolean getActivo(){
-        return activo;}
+        return activo;
+    }
     public void setActivo(boolean activo){
-        this.activo=activo;}
+        this.activo=activo;
+    }
 }
