@@ -5,7 +5,8 @@
 package main;
 
 public class Estudiante {
-    private String nombre, encargado;
+    private String nombre;
+    private String encargado;
     private boolean activo;
 
     public Estudiante() {
@@ -14,13 +15,24 @@ public class Estudiante {
         this.activo = true;
     }
 
-    public String getNombre() { return nombre; }
+    public String getNombre() {
+        return nombre; 
+    }
     public void setNombre(String nombre){
-        this.nombre=nombre;}
+        this.nombre=nombre;
+    }
     
-    public String getEncargado() { return encargado; }
-    public void setEncargado(String encargado) { this.encargado = encargado; }
+    public String getEncargado() {
+        return encargado; 
+    }
+    public void setEncargado(String encargado) { 
+        this.encargado = encargado; 
+    }
     
-    public boolean getActivo() { return activo; }
-    public void setActivo(boolean activo) { this.activo = activo; }
+    public boolean getActivo() {
+        return activo; 
+    }
+    public void setActivo(boolean activo) { 
+        this.activo = activo;
+    }
 }
