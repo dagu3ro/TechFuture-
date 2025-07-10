@@ -18,15 +18,24 @@ public class Participacion {
         this.activa = false;
     }
 
-    public String getNombreEstudiante() { return nombreEstudiante; }
+    public String getNombreEstudiante() { 
+        return nombreEstudiante; 
+    }
     public void setNombreEstudiante(String nombreEstudiante){
-            this.nombreEstudiante=nombreEstudiante;}
+            this.nombreEstudiante=nombreEstudiante;
+    }
     
-    public String getFechaHora() { return fechaHora; }
+    public String getFechaHora() {
+        return fechaHora; 
+    }
     public void setFechahora(String fechaHora){
-        this.fechaHora=fechaHora;}
+        this.fechaHora=fechaHora;
+    }
     
-    public boolean getActiva() { return activa; }
+    public boolean getActiva() { 
+        return activa; 
+    }
     public void setActiva(boolean activa){
-        this.activa=activa;}
+        this.activa=activa;
+    }
 }
